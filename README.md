@@ -23,7 +23,7 @@ The raw video recordings downloaded straightly from zoom. Access these recording
 ### Preprocessed Data
 Due to student's disconnect drop-off and reconnect join in, the window's arrangement in the recorded view may change back and forth. To solve this, we convert the raw grid_view video data into several unchanged grid_view Zoom recordings. Here's the sequence:
 
-1. **Raw Video**: The original raw video data.
+1. **Raw Video**: The original raw video data. 
 2. **Unchanged grid_view Zoom recordings**: Splitted from 1(student_gallery_view) using [Time Stamp Spreadsheet](https://docs.google.com/spreadsheets/d/1pYKqmghlGIbarUW7rUkTX_hiaAkYlV_0R-ExDdXn0_c/edit#gid=0).
 3. **Unchanged Individual Zoom recordings**:  |Including both student and lecturer| Cropped from 2 using [Python Script for Cropping](https://drive.google.com/file/d/1je9xFKXrH3lmTsdaFkkWXOuW9xnjE0tp/view?usp=share_link) according to [People in Videos](https://docs.google.com/spreadsheets/d/1kwJogK-am3mgfxi7gFUr6KqTaWl5ET8fBsAqks86ZKQ/edit?usp=share_link)
 4. **10-Second Individual recording**:  |Including both student and lecturer| Splitted from 3, using [Python Script for Splitting](https://drive.google.com/file/d/18RaKtyPWgcPoat-nhkxFzW_z0JOlKncx/view?usp=drive_link).
@@ -31,12 +31,13 @@ Due to student's disconnect drop-off and reconnect join in, the window's arrange
 6. **10-Second contextual recording**:  Combined 4 with 5.
 7. **Video uploads for Annotations**: [URLs](https://docs.google.com/spreadsheets/d/1kwJogK-am3mgfxi7gFUr6KqTaWl5ET8fBsAqks86ZKQ/edit?usp=share_link)
 
-Storage:
-Detailed timestamps to track window's change: 
-People
-Python script for cropping
-10-second unchanged grid_view Zoom recordings: [10-Second Unchanged grid_view Zoom Recordings](https://drive.google.com/drive/folders/1_FsZybzov4A_sJx9lNyhSHyO4Pg5Drr6?usp=drive_link).
-
-In order to further facilitates tasks such as personalized engagement analysis, 10 second grid_view zoom recordings are further cropped to become 10 second individual recordings.
-10-second individual recordings: 
-10-second contextualized recordings (final videos used for external annotations):
+| Name                                  | Content                                                                                                     | Processing Step                                                                                     | Link                                                                                                                           |
+|---------------------------------------|-------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------|
+| Preprocessed Data                     | Due to student's disconnect drop-off and reconnect join in, the window's arrangement in the recorded view may change back and forth. To solve this, we convert the raw grid_view video data into several unchanged grid_view Zoom recordings. |                                                                                                     |                                                                                                                                |
+| Raw Video                             | The original raw video data.                                                                                |                                                                                                     |                                                                                                                                |
+| Unchanged grid_view Zoom recordings   |                                                                                                             | Splitted from Raw Video using Time Stamp Spreadsheet                                                | [Time Stamp Spreadsheet](https://docs.google.com/spreadsheets/d/1pYKqmghlGIbarUW7rUkTX_hiaAkYlV_0R-ExDdXn0_c/edit#gid=0)          |
+| Unchanged Individual Zoom recordings  | Including both student and lecturer                                                                         | Cropped from Unchanged grid_view Zoom recordings using Python Script for Cropping according to People in Videos | [Python Script for Cropping](https://drive.google.com/file/d/1je9xFKXrH3lmTsdaFkkWXOuW9xnjE0tp/view?usp=share_link), [People in Videos](https://docs.google.com/spreadsheets/d/1kwJogK-am3mgfxi7gFUr6KqTaWl5ET8fBsAqks86ZKQ/edit?usp=share_link) |
+| 10-Second Individual recording        | Including both student and lecturer                                                                         | Splitted from Unchanged Individual Zoom recordings                                                  | [Python Script for Splitting](https://drive.google.com/file/d/18RaKtyPWgcPoat-nhkxFzW_z0JOlKncx/view?usp=drive_link)               |
+| 10-Second Shared Screen recording     |                                                                                                             | Splitted from Raw Video (share_screen.mp4) using Time Stamp Spreadsheet                             | [Time Stamp Spreadsheet](https://docs.google.com/spreadsheets/d/1pYKqmghlGIbarUW7rUkTX_hiaAkYlV_0R-ExDdXn0_c/edit#gid=0)          |
+| 10-Second contextual recording        |                                                                                                             | Combined 10-Second Individual recording with 10-Second Shared Screen recording                      |                                                                                                                                |
+| Video uploads for Annotations         |                                                                                                             |                                                                                                     | [URLs](https://docs.google.com/spreadsheets/d/1kwJogK-am3mgfxi7gFUr6KqTaWl5ET8fBsAqks86ZKQ/edit?usp=share_link)                   |
