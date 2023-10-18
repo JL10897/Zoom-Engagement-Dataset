@@ -31,10 +31,14 @@ Due to student's disconnect drop-off and reconnect join in, the window's arrange
 | 1.3 | **10-Second Individual recording** | Student, lecturer | Splitted from 1.2 using [Python Script for Splitting](https://drive.google.com/file/d/18RaKtyPWgcPoat-nhkxFzW_z0JOlKncx/view?usp=drive_link) | Sample 1.3 file name: 23092021_Pierre_10_Khalid_8.mp4 (date, professor, lecture segment, student name, 10-sec increment number) |
 | 2.1 | [**Unchanged Shared Screen recording**](https://drive.google.com/drive/folders/1kZtNqy9UCAdt5JRcz0sCyDA0b9YTWylD?usp=share_link) | Share screen | Splitted from 0 (share_screen.mp4) using [Time Stamp Spreadsheet](https://docs.google.com/spreadsheets/d/1pYKqmghlGIbarUW7rUkTX_hiaAkYlV_0R-ExDdXn0_c/edit#gid=0) | - |
 | 2.2 | **10-Second Shared Screen recording** | Share screen | Splitted from 2.1 using [Python Script for Splitting](https://drive.google.com/file/d/18RaKtyPWgcPoat-nhkxFzW_z0JOlKncx/view?usp=drive_link) | - |
-| 3 | [**10-Second contextual recording**](https://drive.google.com/drive/folders/1OiT_cTSnfhF_PQ5bR3oGt0XUJs8D4-CF?usp=share_link) | Share screen, student, lecturer | Combined 1.3 with 2.2 | In "cropped video", find each lecture folder. Inside each lecture folder, find the "final" folder.  Outcome: 16,491 10-sec videos of one individual student|
+| 3 | [**10-Second contextual recording**](https://drive.google.com/drive/folders/1OiT_cTSnfhF_PQ5bR3oGt0XUJs8D4-CF?usp=share_link) | Share screen, student, lecturer | Combined 1.3 with 2.2 | In "cropped video", find each lecture folder. Inside each lecture folder, find the "final" folder.  Outcome: 16,491 10-sec videos|
 | 4 | [**Video uploads to Youtube for Annotations**](https://docs.google.com/spreadsheets/d/1kwJogK-am3mgfxi7gFUr6KqTaWl5ET8fBsAqks86ZKQ/edit?usp=share_link) | Share screen, student, lecturer | Upload 3 to YouTube | - |
 
 
+### Annotation Results
+
+1. Quetionaire
+2. A
 
 
 
