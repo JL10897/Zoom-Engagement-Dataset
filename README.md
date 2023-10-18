@@ -1,6 +1,6 @@
 # MOSE Project
 
-This is the Multimodal Online Student Engagement Dataset. This dataset is a collaborative effort by Catherine (Jialin Li) and Alia (Alia Waleed), designed to support research on online student engagement. It includes a variety of multimedia components for in-depth analysis.
+This is the Multimodal Online Student Engagement Dataset. This dataset is a collaborative effort by SMART Lab at NYUAD, designed to support research on online student engagement. It includes a variety of multimedia components for in-depth analysis.
 
 ---
 
