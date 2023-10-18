@@ -41,17 +41,21 @@ Due to student's disconnect drop-off and reconnect join in, the window's arrange
 
 ---
 
-### Annotation Results
+### Annotation Results 
 
+A presentation made originally by Alia Waleed is [here](https://docs.google.com/presentation/d/17BHcKZqLrBDJHQJSZQO20r9n55vJVlAdGJro01hSJag/edit?usp=sharing)
 The 10-second student clips were annotated by crowdsourcing workers on Appen. Each video received 10 engagement annotations on attributes such as bored, focused, and engaged.
 
-#### 1. Questionnaire Creation
+#### 1. External Annotations Collection
 - Created a questionnaire with engagement attributes.
 - Added context questions, e.g., "Is the professor explaining slides?"
 - Distributed jobs and received back the annotated CSV file.
-  - [Video URLs](#)
-  - [Questionnaire Document](#)
-  - [Annotation Account Detail](#)
+  - [Video URLs](https://docs.google.com/spreadsheets/d/1kwJogK-am3mgfxi7gFUr6KqTaWl5ET8fBsAqks86ZKQ/edit?usp=share_link)
+  - [Questionnaire Document]()
+  - [Annotation Account Detail]()
+    
+#### 2. Internal Annotations Collection
+
 
 #### 2. Annotation Cleaning & Statistical Validation
 
