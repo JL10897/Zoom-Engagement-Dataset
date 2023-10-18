@@ -4,7 +4,7 @@ This is the Multimodal Online Student Engagement Dataset. This dataset is a coll
 
 ## Dataset Overview
 
-### Quick Reference Slides
+#### Quick Reference Slides
 For a quick introduction to the dataset and its details, please review our presentation slides available at [this link](https://docs.google.com/presentation/d/1oICvGvWpDMS1Ro6-yWFDrBTs-GKh_TB4LxYbBjpdD5Y/edit?usp=sharing).
 
 ### Raw Videos
@@ -36,22 +36,51 @@ Due to student's disconnect drop-off and reconnect join in, the window's arrange
 
 
 ### Annotation Results
-The 10-second student clips were annotated by crowdsourcing workers on Appen. Each video received 10 engagement annotations on attributes like bored, focused, engaged.
-1. Quetionaire
-   Created Questionaire with engagement attributes
-   Added Context Question  like if professor is explaining slides
-   Access the designed Qustionaire here
-   Sent out jobs and received back annotated CSV file
-   Annotation account details
-3. Annotation Cleaning & Statistical Validation
-   Cleaning Steps and Reasonels
-   Encodings
-   Inter-rater agreement with ICC (Remove outllier)
-5. Annotation Distributions & Visualizations
-   Correlations between attributes
-8. Manipulation (Aggregating / Averaging
-   What ways and potential ways to create the labels for dataset
+
+The 10-second student clips were annotated by crowdsourcing workers on Appen. Each video received 10 engagement annotations on attributes such as bored, focused, and engaged.
+
+#### 1. Questionnaire Creation
+- Created a questionnaire with engagement attributes.
+- Added context questions, e.g., "Is the professor explaining slides?"
+- Distributed jobs and received back the annotated CSV file.
+  - [Video URLs](#)
+  - [Questionnaire Document](#)
+  - [Annotation Account Detail](#)
+
+#### 2. Annotation Cleaning & Statistical Validation
+
+**Fundamental Pre-processing:**
+- Encoding: Converted text to numerical data. [Code](#)
+- Handled null values.
+
+**Advanced Processing for Validation:**
+- Inter-rater agreement with ICC.
+  - Removed outliers.
+  - [Slides](#)
+  - [Code](#)
+  - [Cleaned CSV](#)
+
+#### 3. Annotation Distributions & Visualizations
+- Examined correlations between attributes. [Slides Report](#)
+
+#### 4. Manipulation (Aggregating / Averaging)
+- Explored methods to create dataset labels. [Code](#)
+
+---
+
 ### Machine Learning Models
-1. Adapted Deep Personality (HRNet|VAT|Swin-Transformer)
-2. Data Prep for Model (Splitting, Data type)
-3. 
+
+#### Data Preparation:
+- Preprocessed videos into image frames for visual analysis.
+- Adapted annotations to the expected model format (CSV to PKL).
+- Normalized annotation values from 0 to 1.
+- Split data into train (60%), validation (20%), and test (20%) sets.
+
+#### Baseline Model:
+- Tested three models: HRNet, Swin Transformer, and VAT.
+  - On full unsorted data.
+  - On data filtered by ICC.
+
+#### Personalized Models:
+- Trained separate HRNet models for each professor.
+
