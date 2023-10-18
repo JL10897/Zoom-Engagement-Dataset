@@ -23,20 +23,12 @@ The raw video recordings downloaded straightly from zoom. Access these recording
 ### Preprocessed Data
 Due to student's disconnect drop-off and reconnect join in, the window's arrangement in the recorded view may change back and forth. To solve this, we convert the raw grid_view video data into several unchanged grid_view Zoom recordings. Here's the sequence:
 
-1. **Raw Video**: The original raw video data. 
-2. **Unchanged grid_view Zoom recordings**: Splitted from 1(student_gallery_view) using [Time Stamp Spreadsheet](https://docs.google.com/spreadsheets/d/1pYKqmghlGIbarUW7rUkTX_hiaAkYlV_0R-ExDdXn0_c/edit#gid=0).
-3. **Unchanged Individual Zoom recordings**:  |Including both student and lecturer| Cropped from 2 using [Python Script for Cropping](https://drive.google.com/file/d/1je9xFKXrH3lmTsdaFkkWXOuW9xnjE0tp/view?usp=share_link) according to [People in Videos](https://docs.google.com/spreadsheets/d/1kwJogK-am3mgfxi7gFUr6KqTaWl5ET8fBsAqks86ZKQ/edit?usp=share_link)
-4. **10-Second Individual recording**:  |Including both student and lecturer| Splitted from 3, using [Python Script for Splitting](https://drive.google.com/file/d/18RaKtyPWgcPoat-nhkxFzW_z0JOlKncx/view?usp=drive_link).
-5. **10-Second Shared Screen recording**: Splitted from 1(share_screen.mp4) using [Time Stamp Spreadsheet](https://docs.google.com/spreadsheets/d/1pYKqmghlGIbarUW7rUkTX_hiaAkYlV_0R-ExDdXn0_c/edit#gid=0).
-6. **10-Second contextual recording**:  Combined 4 with 5.
-7. **Video uploads for Annotations**: [URLs](https://docs.google.com/spreadsheets/d/1kwJogK-am3mgfxi7gFUr6KqTaWl5ET8fBsAqks86ZKQ/edit?usp=share_link)
-
 | Name                                  | Content                                                                                                     | Processing Step                                                                                     | Link                                                                                                                           |
 |---------------------------------------|-------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------|
-| 1. Raw Video | - | The original raw video data. |     |
-| 2. Unchanged grid_view Zoom recordings   | Student, lecturer | Splitted from 1 (students_gallery_view.mp4) using [Time Stamp Spreadsheet](https://docs.google.com/spreadsheets/d/1pYKqmghlGIbarUW7rUkTX_hiaAkYlV_0R-ExDdXn0_c/edit#gid=0) | |
-| 3. Unchanged Individual Zoom recordings  | Student, lecturer | Cropped from 2 using [Python Script for Cropping](https://drive.google.com/file/d/1je9xFKXrH3lmTsdaFkkWXOuW9xnjE0tp/view?usp=share_link) according to [Text to record People in Videos](https://docs.google.com/spreadsheets/d/1kwJogK-am3mgfxi7gFUr6KqTaWl5ET8fBsAqks86ZKQ/edit?usp=share_link)  | |
-| 4. 10-Second Individual recording        | Student, lecturer | Splitted from 3 using [Python Script for Splitting](https://drive.google.com/file/d/18RaKtyPWgcPoat-nhkxFzW_z0JOlKncx/view?usp=drive_link)| | 
-| 5. 10-Second Shared Screen recording| Share screen | Splitted from 1 (share_screen.mp4) using [Time Stamp Spreadsheet](https://docs.google.com/spreadsheets/d/1pYKqmghlGIbarUW7rUkTX_hiaAkYlV_0R-ExDdXn0_c/edit#gid=0) Spreadsheet |  |
-| 6. 10-Second contextual recording| Share screen, student, lecturer | Combined 4 with 5  |  |
-| 7. Video uploads to Youtube for Annotations         | Share screen, student, lecturer  | Upload 6 to youtube  | [Derived URLs](https://docs.google.com/spreadsheets/d/1kwJogK-am3mgfxi7gFUr6KqTaWl5ET8fBsAqks86ZKQ/edit?usp=share_link)                   |
+| 1. **Raw Video** | - | The original raw video data. |     |
+| 2. **Unchanged grid_view Zoom recordings**   | Student, lecturer | Splitted from 1 (students_gallery_view.mp4) using [Time Stamp Spreadsheet](https://docs.google.com/spreadsheets/d/1pYKqmghlGIbarUW7rUkTX_hiaAkYlV_0R-ExDdXn0_c/edit#gid=0) | |
+| 3. **Unchanged Individual Zoom recordings ** | Student, lecturer | Cropped from 2 using [Python Script for Cropping](https://drive.google.com/file/d/1je9xFKXrH3lmTsdaFkkWXOuW9xnjE0tp/view?usp=share_link) according to [Text to record People in Videos](https://docs.google.com/spreadsheets/d/1kwJogK-am3mgfxi7gFUr6KqTaWl5ET8fBsAqks86ZKQ/edit?usp=share_link)  | |
+| 4. **10-Second Individual recording    **    | Student, lecturer | Splitted from 3 using [Python Script for Splitting](https://drive.google.com/file/d/18RaKtyPWgcPoat-nhkxFzW_z0JOlKncx/view?usp=drive_link)| | 
+| 5. **10-Second Shared Screen recording**| Share screen | Splitted from 1 (share_screen.mp4) using [Time Stamp Spreadsheet](https://docs.google.com/spreadsheets/d/1pYKqmghlGIbarUW7rUkTX_hiaAkYlV_0R-ExDdXn0_c/edit#gid=0) Spreadsheet |  |
+| 6. **10-Second contextual recording**| Share screen, student, lecturer | Combined 4 with 5  |  |
+| 7. **Video uploads to Youtube for Annotations **        | Share screen, student, lecturer  | Upload 6 to youtube  | [Derived URLs](https://docs.google.com/spreadsheets/d/1kwJogK-am3mgfxi7gFUr6KqTaWl5ET8fBsAqks86ZKQ/edit?usp=share_link)                   |
