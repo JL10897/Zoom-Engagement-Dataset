@@ -36,9 +36,22 @@ Due to student's disconnect drop-off and reconnect join in, the window's arrange
 
 
 ### Annotation Results
-
+The 10-second student clips were annotated by crowdsourcing workers on Appen. Each video received 10 engagement annotations on attributes like bored, focused, engaged.
 1. Quetionaire
-2. A
-
-
-
+   Created Questionaire with engagement attributes
+   Added Context Question  like if professor is explaining slides
+   Access the designed Qustionaire here
+   Sent out jobs and received back annotated CSV file
+   Annotation account details
+3. Annotation Cleaning & Statistical Validation
+   Cleaning Steps and Reasonels
+   Encodings
+   Inter-rater agreement with ICC (Remove outllier)
+5. Annotation Distributions & Visualizations
+   Correlations between attributes
+8. Manipulation (Aggregating / Averaging
+   What ways and potential ways to create the labels for dataset
+### Machine Learning Models
+1. Adapted Deep Personality (HRNet|VAT|Swin-Transformer)
+2. Data Prep for Model (Splitting, Data type)
+3. 
