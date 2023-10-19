@@ -43,7 +43,8 @@ Due to student's disconnect drop-off and reconnect join in, the window's arrange
 
 ### Annotation Results 
 
-A presentation made originally by Alia Waleed is [here](https://docs.google.com/presentation/d/17BHcKZqLrBDJHQJSZQO20r9n55vJVlAdGJro01hSJag/edit?usp=sharing)
+A presentation made originally by Alia Waleed is [here](https://docs.google.com/presentation/d/17BHcKZqLrBDJHQJSZQO20r9n55vJVlAdGJro01hSJag/edit?usp=sharing).
+
 The 10-second student clips were annotated by crowdsourcing workers on Appen. Each video received 10 engagement annotations on attributes such as bored, focused, and engaged.
 
 #### 1. External Annotations Collection 
