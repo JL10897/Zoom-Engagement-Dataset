@@ -58,7 +58,7 @@ The 10-second student clips were annotated by crowdsourcing workers on Appen. Ea
 #### 2. Internal Annotations Collection
 - Self-reported internal annotationas are also collected to serve for reference
 - [Raw Data]()
-- [Reliability Test]()
+- [Reliability Test](https://drive.google.com/drive/folders/13ayPeOC9MQMBdmSjbbIikSOiGNvjyhbr?usp=share_link)
 
 #### 3. Annotation Cleaning & Statistical Validation
 
@@ -89,9 +89,10 @@ The 10-second student clips were annotated by crowdsourcing workers on Appen. Ea
 
 #### Data Preparation:
 - Preprocessed videos into image frames for visual analysis.
-- Adapted annotations to the expected model format (CSV to PKL).
+- Adapted annotations to the expected model format [(CSV to PKL)]([url](https://colab.research.google.com/drive/194Y1le4s9Whwyyxtapb2zvJ-iG3_lSOY?usp=share_link)).
 - Normalized annotation values from 0 to 1.
 - Split data into train (60%), validation (20%), and test (20%) sets.
+- 
 
 #### Baseline Model:
 - Tested three models: HRNet, Swin Transformer, and VAT.
